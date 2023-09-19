@@ -10,7 +10,7 @@ steps:
        terraform init
  
  
- - id: 'This Step runs terraform apply'
+  - id: 'This Step runs terraform apply'
     name: 'hashicorp/terraform:1.0.0'
     entrypoint: 'sh'
     args: 
