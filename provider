@@ -1,0 +1,4 @@
+provider "google" {
+  project = "noparast"
+  region  = "us-central1"
+}
