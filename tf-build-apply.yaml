@@ -1,0 +1,21 @@
+steps:
+  - id: 'This step runs terraform init'
+    name: 'hashicorp/terraform:1.0.0'
+    entrypoint: 'sh'
+    args: 
+    - '-c'
+    - | 
+       ls
+       cd terraform2023
+       terraform init
+ 
+ 
+  - id: 'This Step runs terraform apply'
+    name: 'hashicorp/terraform:1.0.0'
+    entrypoint: 'sh'
+    args: 
+    - '-c'
+    - | 
+       ls
+       cd terraform2023
+       terraform apply -auto-approve 
