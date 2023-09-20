@@ -1,4 +1,4 @@
 provider "google" {
-  project = "poc2-dev"
+  project = "decent-courage-398120"
   region  = "us-central1"
 }
