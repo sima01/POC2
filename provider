@@ -1,4 +1,4 @@
 provider "google" {
-  project = "seed-poc2-399617"
+  project = "poc2-dev"
   region  = "us-central1"
 }
