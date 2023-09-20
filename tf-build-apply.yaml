@@ -19,3 +19,4 @@ steps:
        ls
        cd terraform2023
        terraform apply
+       -auto-approve 
