@@ -4,7 +4,7 @@ terraform {
     prefix  = "terraform/state"
   }
 }
-resource "google_storage_bucket" "bucket" {
+resource "google_storage_bucket" "buckett" {
   count =1
   name  = "dragonflyo1"
   location = "US"
