@@ -6,7 +6,7 @@ terraform {
 }
 resource "google_storage_bucket" "bucket" {
   count =1
-  name  = "dragonflyo1"
+  name  = "dragonf-dev"
   project = "dragonfly2"
   location = "US"
   storage_class = "STANDARD"
