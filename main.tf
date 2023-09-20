@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     bucket  = "statefilebucket01"
-    prefix  = "terraform/state"
+    prefix  = "terraform/dev/state"
   }
 }
 resource "google_storage_bucket" "bucket" {
